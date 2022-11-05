@@ -265,3 +265,99 @@ body {
     color: #333333;
     font-weight: 700;
 }
+
+.container .main .boardBox {
+    width: 800px;
+    display: grid;
+    row-gap: 30px;
+}
+
+.container .main .boardBox .board {
+    display: grid;
+    row-gap: 10px;
+}
+
+.container .main .boardBox .board .head {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 5px;
+}
+
+.container .main .boardBox .board .head .searchTextInput {
+    width: 100px;
+    background: #FFFFFF;
+    border: 1px solid #333333;
+    padding: 6px;
+}
+
+.container .main .boardBox .board .head .searchTextInput::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #9D9D9D;
+}
+
+.container .main .boardBox .board .head .searchBtn {
+    background: #333333;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #FFFFFF;
+    padding: 6px;
+}
+
+.container .main .boardBox .board table {
+    border-collapse: collapse;
+}
+
+.container .main .boardBox .board table .tableHead td {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 9px;
+    background: #333333;
+}
+
+.container .main .boardBox .board table .tableBody td {
+    background: #D9D9D9;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #333333;
+    padding: 9px;
+}
+
+.container .main .boardBox .board table .tableBody td:nth-child(2) {
+    text-align: left;
+}
+
+.container .main .boardBox .board .buttonGroup {
+    display: flex;
+    justify-content: end;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.paging {
+    text-align: center;
+}
+
+.black {
+    color: #333333;  
+}

@@ -385,3 +385,34 @@ body {
     display: grid;
     row-gap: 10px;
 }
+
+.container .main .editMemberForm {
+    margin-top: 200px;
+    margin-left: 200px;
+    display: grid;
+    row-gap: 30px;
+    width: 400px;
+}
+
+.container .main .editMemberForm .labelTextInputGroup {
+    display: grid;
+    row-gap: 20px;
+}
+
+.container .main .editMemberForm .buttonGroup {
+    display: grid;
+    justify-content: center;
+}
+
+.container .main .editMemberForm .labelTextInputGroup .labelTextInput .text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333;
+}
+
+.w160 {
+    width: 160px;
+}

@@ -380,3 +380,8 @@ body {
     color: #333333;
     font-weight: 700;
 }
+
+.container .main .boardBox .board table .tableBody .content {
+    display: grid;
+    row-gap: 10px;
+}

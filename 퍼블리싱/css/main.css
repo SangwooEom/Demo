@@ -361,3 +361,22 @@ body {
 .black {
     color: #333333;  
 }
+
+.container .sideBar .menuList .menu .subMenuList .subMenu a {
+    background: #7E7E7E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.container .sideBar .menuList .menu .subMenuList .selected a {
+    background: #FFFFFF;
+    color: #333333;
+    font-weight: 700;
+}
